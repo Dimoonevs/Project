@@ -1,0 +1,286 @@
+.layout-queshion{
+    background: none !important;
+    background-color: #f7f5f5 !important;
+}
+.layout-requirements{
+    padding: 75px 0;
+}
+.layout-requirements_top{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.layout-requirements_top-text-title{
+    text-align: start !important;
+}
+.layout-requirements_top-text-inf{
+    max-width: 562px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-top: 27px;
+}
+.layout-requirements_top-text-format{
+    margin-top: 40px;
+}
+.layout-requirements_top-text-all-title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-bottom: 21px;
+}
+.layout-requirements_top-text-all ul li{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    line-height: 24px;
+    max-width: 497px;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 12px;
+}
+.layout-requirements_top-text-all ul li img{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+.layout-requirements_top-text-format ul li:nth-last-child(1) img{
+    opacity: 0;
+}
+.layout-requirements_top-text-name{
+    margin-top: 31px;
+}
+.layout-requirements_top-text-image--mobile{
+    display: none;
+    margin: 40px 0;
+}
+.layout-requirements_bottom{
+    margin-top: 30px;
+}
+.layout-requirements_bottom-doc ul li{
+    max-width: 1130px;
+}
+.layout-requirements_bottom-general{
+    margin-top: 30px;
+}
+.layout-requirements_bottom-general ul li{
+    max-width: 100%;
+}
+.layout-requirements_bottom-original{
+    margin-top: 30px;
+}
+.layout-requirements_bottom-original ul li{
+    max-width: 100%;
+}
+.layout-vector{
+    padding: 81px 0;
+    background-color: #f7f5f5;
+}
+.layout-vector b{
+    color: #333333;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.layout-vector_body-text-list ul li{
+    max-width: 738px;
+}
+.layout-vector_body{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.layout-raster{
+    padding: 81px 0 21px 0;
+}
+.layout-raster_title b{
+    color: #333333;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.circul{
+    width: 6px;
+    height: 6px;
+    background-color: #229581;
+    border-radius: 50%;
+}
+.layout-raster_body-text-list ul li{
+    max-width: none;
+    width: 100%;
+}
+.layout-raster_body-text-list ul{
+    max-width: 739px;
+}
+.layout-raster_body-text-list .text{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.layout-raster_body-text-list .text .circul{
+    margin-right: 8px;
+}
+.layout-raster_body-img--mobile{
+    display: none;
+}
+.layout-raster_body{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.layout-raster_bottom-title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.layout-raster_bottom-wide ul li{
+    max-width: 100%;
+}
+.layout-raster_bottom-vector{
+    margin-top: 36px;
+}
+.layout-raster_bottom-vector ul li{
+    max-width: 100%;
+}
+.layout-raster_bottom-file ul li{
+    max-width: 1182px;
+}
+.layout-raster_bottom-file .text{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.layout-raster_bottom-file .text .circul{
+    margin-right: 8px;
+}
+.layout-raster_bottom-file{
+    margin-top: 36px;
+}
+.layout-raster_bottom-text .text{
+    max-width: 1060px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+}
+.layout-raster_bottom-text{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 44px;
+    margin-bottom: 76px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1225px){
+    .layout-requirements_top-img{
+        display: none;
+    }
+    .layout-requirements_top-text-image--mobile{
+        display: block;
+    }
+    .layout-requirements_top-text-all ul li{
+        max-width: none;
+        width: 100%;
+    }
+    .layout-requirements_top-text-inf{
+        max-width: none;
+        width: 100%;
+    }
+    .layout-vector_body{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    .layout-raster_body{
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    .layout-raster_body-img{
+        display: none;
+    }
+    .layout-raster_body-img--mobile{
+        display: block;
+        width: 460px;
+        height: 460px;
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+}
+@media screen and (max-width:654px){
+    .layout-requirements_top-text-image--mobile{
+        width: 100%;
+    }
+}   
+@media screen and (max-width:425px){
+    .layout-requirements_top-text-inf{
+        font-size: 13px ;
+        line-height: 20px;
+    }
+    .layout-requirements_top-text-all-title{
+        font-size: 19px;
+    }
+    .layout-raster_bottom-text .text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .medi{
+        width: 100%;
+    }
+    .layout-raster_body-img--mobile{
+        width: 100%;
+        height: auto;
+    }
+}
+

@@ -1,0 +1,347 @@
+.delivery_pyerment-list{
+    padding: 79px 0 55px 0;
+}
+.delivery_pyerment-list_text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-top: 32px;
+}
+.delivery_pyerment-list_text b{
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.delivery_pyerment-list_price{
+    margin-top: 36px;
+    display: -ms-flexbox;
+    display: flex;
+    height: 893px;
+}
+.delivery_pyerment-list_price_tip{
+    width: 630px;
+    height: 60px;
+}
+.delivery_pyerment-list_price_cena{
+    width: 325px;
+    height: 60px;
+}
+.delivery_pyerment-list_price_deadline{
+    width: 325px;
+    height: 60px;
+}
+.delivery_pyerment-list_price_top{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    height: 100%;
+    border: 1px solid #ffffff;
+    background-color: #229581;
+}
+
+.delivery_pyerment-list_price_tip_MKAD{
+    width: 630px;
+    height: 140px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    padding-left: 39px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+} 
+.delivery_pyerment-list_price_tip_MKAD .text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+.delivery_pyerment-list_price_tip_MKAD ul li{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.delivery_pyerment-list_price_tip_MKAD ul li img{
+    margin-right: 10px;
+}
+.delivery_pyerment-list_price_tip_MKAD ul li a{
+    color: #229581;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: underline;
+}
+.delivery_pyerment-list_price_tip_conener{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -1px;
+}
+.delivery_pyerment-list_price_cena_conener{
+    margin-top: -1px;
+}
+.delivery_pyerment-list_price_cena_MKAD{
+    width: 325px;
+    height: 140px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+.delivery_pyerment-list_price_deadline_conener{
+    margin-top: -1px;
+}
+.delivery_pyerment-list_price_deadline_MKAD{
+    width: 325px;
+    height: 140px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+.delivery_pyerment-list_bottom{
+    margin-top: 30px;
+}
+.delivery_pyerment-list_bottom p:nth-child(1){
+    max-width: 977px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.delivery_pyerment-list_bottom p:nth-child(2){
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-top: 25px;
+}
+.delivery_pyerment-bottom{
+    padding-bottom: 97px;
+}
+.delivery_pyerment-bottom_text{
+    margin-bottom: 46px;
+}
+.delivery_pyerment-bottom_text p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+.delivery_pyerment-bottom_text ul li{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 15px 0;
+}
+.delivery_pyerment-bottom_text ul li img{
+    margin-right: 8px;
+}
+.delivery_pyerment-bottom_text ul li:nth-child(3) img{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.delivery_pyerment-bottom_cards{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: -20px -20px;
+}
+.delivery_pyerment-bottom_card{
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    background-color: #f9f9f9;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: calc(100%/3 - 40px);
+    margin: 20px 20px;
+    height: 190px;
+    cursor: pointer;
+}
+.delivery_pyerment-bottom_card p{
+    color: #000000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+}
+.delivery_pyerment-queshion{
+    background: none !important;
+    background-color: #f7f5f5 !important;
+}
+
+
+
+
+
+
+@media screen and (max-width:1323px) {
+    .delivery_pyerment-list_price{
+        overflow-y: scroll;
+    }
+}
+@media screen and (max-width:1290px) {
+    .delivery_pyerment-bottom_card{
+        width: 400px;
+    }
+    .delivery_pyerment-bottom_cards{
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:987px) {
+    .delivery_pyerment-list_price_tip_MKAD .text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .delivery_pyerment-list_price_tip_MKAD ul li{
+        font-size: 13px ;
+        line-height: 20px;
+    }
+    .delivery_pyerment-list_price_cena_MKAD{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .delivery_pyerment-list_price_deadline_MKAD{
+        font-size: 13px;
+        line-height: 20px;
+
+    }
+    .delivery_pyerment-list_price_tip_MKADz{
+        width: 440px;
+        height: 140px;
+    }
+    .delivery_pyerment-list_price_tip_MKAD{
+        padding-left:9px ;
+    }
+    .delivery_pyerment-list_price_tip_MKAD ul li{
+        max-width: 420px;
+    }
+    .delivery_pyerment-list_price_tip{
+        width: 440px;
+        height: 60px;
+    }
+    .delivery_pyerment-list_price_cena_MKAD{
+        width: 225px;
+    }
+    .delivery_pyerment-list_price_deadline{
+        width: 225px;
+    }
+    .delivery_pyerment-list_price_cena{
+        width: 225px;
+    }
+    .delivery_pyerment-list_price_deadline_MKAD{
+        width: 225px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .delivery_pyerment-list_text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .delivery_pyerment-list_text b{
+        font-size: 19px;
+    }
+    .delivery_pyerment-list_bottom p:nth-child(1){
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .delivery_pyerment-list_bottom p:nth-child(2){
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .delivery_pyerment-list{
+        padding: 79px 0 28px 0;
+    }
+    .delivery_pyerment-bottom_text ul li{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .delivery_pyerment-bottom_card p{
+        font-size: 13px;
+    }
+}

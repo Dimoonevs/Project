@@ -1,0 +1,245 @@
+.reviews-clients{
+    padding: 78px 0 103px 0;
+}
+.reviews-lients_title{
+    margin-bottom: 60px;
+}
+.reviews-clients_cards{
+    margin: -20px -20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.reviews-clients_cards-card{
+    width: calc(100%/2 - 40px);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 20px 20px;
+}
+.reviews-clients_cards-card-inf{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: end;
+    align-items: end;
+    position: relative;
+}
+.reviews-clients_cards-card-inf-data{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #888888;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.reviews-clients_cards-card-inf img{
+    margin-right: 30px;
+}
+.reviews-clients_cards-card-inf-text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.reviews-clients_cards-card-text{
+    margin-top: 20px;
+    max-width: 554px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.reviews-clients_button{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.reviews-letter{
+    padding: 80px 0;
+    background-color: #f7f5f5;
+}
+.reviews-letter_image{
+    margin: 55px -10px;
+    display: -ms-flexbox;
+    display: flex;
+}
+.reviews-letter_image img{
+    width: 305px;
+    margin: 0 10px;
+}
+.reviews-letter_nav{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.reviews-letter_nav-number ul{
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -5px;
+}
+.reviews-letter_nav-number ul li{
+    margin: 0 5px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+.reviews-letter_nav-all{
+    cursor: pointer;
+}
+.reviews-letter_nav-all svg{
+    width: 8px;
+    height: 14px;
+    margin: 0 68px;
+}
+.reviews-letter_nav-number--active{
+    color: #229581 !important;
+}
+.reviews-letter_nav-all svg path{
+    transition: .5s;
+}
+.reviews-letter_nav-next svg{
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+.reviews-letter_nav-all:hover svg path{
+    fill:#229581;
+}
+.reviews-input{
+    padding: 100px 0;
+}
+.reviews-input_title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.reviews-input_blocks{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.reviews-input_blocks-block p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.reviews-input_blocks-block p b{
+    color: #cf4343;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.reviews-input_blocks input{
+    width: 324px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    padding-left: 10px;
+}
+.reviews-input_blocks-block-bot{
+    color: #888888;
+    font-family: "Gilroy";
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-top: 7px;
+}
+.reviews-input_bottom textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px 0 0 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.reviews-input_bottom{
+    margin-top: 40px;
+}
+.reviews-input_bottom p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.reviews-input_bottom p b{
+    color: #cf4343;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.reviews-input_button{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
+@media screen and (max-width:1045px){
+    .reviews-input_blocks input{
+        width: 290px;
+    }
+}
+
+@media screen and (max-width:944px){
+    .reviews-clients_cards{
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .reviews-clients_cards-card{
+        width: auto;
+        max-width: 620px;
+    }
+    .reviews-input_blocks{
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .reviews-input_blocks input{
+        width: 100%;
+    }
+    .reviews-input_blocks-block{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width:425px){
+    .reviews-clients_cards-card-text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .reviews-clients_cards-card-inf-text{
+        font-size: 15px;
+    }
+}

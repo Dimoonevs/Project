@@ -1,0 +1,211 @@
+.buisness-clients{
+    padding: 91px 0 108px 0;
+}
+.buisness-clients_body{
+    margin-top: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.buisness-clients_body-text-top{
+    max-width: 608px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.buisness-clients_body-text-list-title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+.buisness-clients_body-text-list ul li{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    max-width: 683px;
+    display: -ms-flexbox;
+    display: flex;
+}
+.buisness-clients_body-text-list ul li img{
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-right: 8px;
+    margin-top: 12px;
+}
+.buisness-working{
+    background-color: #f7f5f5;
+    padding: 90px 0;
+}
+.buisness-working_inf-title{
+    margin-bottom: 39px;
+}
+.buisness-working_inf{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.buisness-working_inf-text{
+    max-width: 765px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+.buisness-working_inf-text a{
+    color: #229581;
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: underline;
+}
+.buisness-clients{
+    background-color: white !important;
+}
+.buisness-queshion{
+    background: none !important;
+    background-color: #f7f5f5 !important;
+}
+.buisness-procent{
+    padding: 90px 0;
+}
+.buisness-procent_cards{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 2px;
+}
+.buisness-procent_card{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.buisness-procent_card-numb{
+    color: #229581;
+    font-family: "MADE Saonara";
+    font-size: 90px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.buisness-procent_card-title{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: center;
+}
+.buisness-procent_card-text{
+    margin-top: 15px;
+    max-width: 216px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+.buisness-procent_links{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin:46px -50px;
+}
+.buisness-procent_link{
+    margin: 0 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;    
+}
+.buisness-procent_link img{
+    margin-right: 8px;
+}
+.buisness-procent_link a{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+@media screen and (max-width:1249px){
+    .buisness-clients_body{
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:461px){
+    .buisness-procent_link{
+        margin: 0 11px;
+    }
+    .buisness-procent_link a{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:425px){
+    .buisness-clients_body-text-list ul li{
+      font-size: 13px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+    .buisness-clients_body-text-top{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .buisness-working_inf-text{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .buisness-clients_body-text-list ul li img{
+        margin-top: 7px;
+    }
+  }

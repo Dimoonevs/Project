@@ -1,0 +1,1054 @@
+.printing-blueprints{
+    padding: 80px 0;
+}
+.printing-blueprints_text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-blueprints_title{
+    margin: 63px 0;
+}
+.printing-blueprints_block-cards{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+.printing-blueprints_block-cards-card-image{
+    position: relative;
+}
+.printing-blueprints_block-cards-card-image img{
+    z-index: 999;
+}
+.printing-blueprints_block-cards-card-image-numb{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 100px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.printing-blueprints_block-cards-card-text a{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: underline;
+    margin-right: 66px;
+}
+.printing-blueprints_block-cards-card-text{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.printing-blueprints_block-text{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.printing-blueprints_block-text a{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.printing-price_text-bord{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-left: 10px;
+    margin-bottom: 18px;
+    border-left: 2px solid #229581;
+}
+.printing-price_lists{
+    display: -ms-flexbox;
+    display: flex;
+}
+.printing-price_list-ops{
+    width: 210px;
+    height: 60px;
+    background-color: #229581;
+}
+.printing-price_list-ops{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 1px;
+}
+.printing-price_list-ops p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_list-card{
+    width: 211px;
+    height: 60px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-price_list-card p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_signature{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-top: 21px;
+    margin-bottom: 62px;
+}
+.printing-price_text-text{
+    max-width: 1170px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-bottom: 17px;
+}
+.printing-price_lists-circulation-left-ops{
+    width: 224px;
+    height: 81px;
+    background-color: #229581;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0.5px;
+}
+.printing-price_lists-circulation-left-ops p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_lists-circulation-left-card{
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    width: 225px;
+    height: 81px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-price_lists-circulation-left-card p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_lists-circulation-right-top{
+    width: 1055px;
+    height: 40px;
+    background-color: #229581;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0.5px;
+}
+.printing-price_lists-circulation-right-top p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_lists-circulation-right-bottom{
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -0.5px ;
+}
+.printing-price_lists-circulation-right-bottom-card-ops{
+    width: 175px;
+    height: 40px;
+    background-color: #229581;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: .5px;
+}
+.printing-price_lists-circulation-right-bottom-card-ops p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_lists-circulation-right-bottom-card-text{
+    width: 176px;
+    height: 81px;
+    border: 1px solid #d3d3d3;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-price_lists-circulation-right-bottom-card-text p{
+    width: 24px;
+    height: 12px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_lists-circulation{
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 79px;
+    margin-bottom: 60px;
+}
+.printing-price_dop{
+    display: -ms-flexbox;
+    display: flex;
+}
+.printing-price_dop-left-ops{
+    width: 928px;
+    height: 60px;
+    background-color: #229581;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 41px;
+}
+.printing-price_dop-left-card{
+    width: 929px;
+    height: 60px;
+    border: 1px solid #d3d3d3;
+    padding-left: 41px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-price_dop-left-card p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_dop-left-ops p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_dop-right-ops{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    background-color: #229581;
+    margin-left: 1px;
+}
+.printing-price_dop-right-card{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 351px;
+    height: 60px;
+    border: 1px solid #d3d3d3;
+}
+.printing-price_dop-right-card p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-price_dop-right-ops p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.printing-exampl{
+    background-color: #f7f5f5;
+    padding: 80px 0;
+}
+.printing-exampl .about-team_slider img{
+    height: 420px;
+}
+.printing-queshion_video{
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 95px;
+    cursor: pointer;
+}
+.printing-queshion_video .play{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 999;
+}
+.printing-queshion_video::after{
+    content: "";
+    background-color: #667774;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
+}
+.about_body-radio img{
+    margin-right: 10px;
+}
+.printing-queshion_video img:nth-child(1){
+    width: 100%;
+}
+.printing-queshion_cards-left-title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-left: 18px;
+    border-left: 2px solid #229581;
+    margin-bottom: 36px;
+}
+.printing-queshion_cards-left-text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 35px;
+    cursor: pointer;
+    transition: .5s;
+}
+.printing-queshion_cards-left-title--active{
+    color: #229581;
+}
+.printing-queshion_cards{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack:justify;
+    justify-content:space-between ;
+}
+.printing-queshion_cards-right{
+    max-width: 956px;
+    padding-left: 30px;
+    border-left: 1px solid #d3d3d3;
+    margin: -8px 0;
+}
+.printing-queshion_cards-right-card{
+    padding: 13px 0 6px 21px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    margin: 8px 0;
+    width: 925px;
+    position: relative;
+    cursor: pointer;
+}
+.printing-queshion_cards-right-card .titles{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 23px;
+}
+.printing-queshion_cards-right-card .slide_printing{
+    max-width: 744px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.plus_contener{
+    position: absolute;
+    top: 23px;
+    right: 26px;
+}
+.plus_contener .plus{
+    position: relative;
+}
+.plus_contener .plus div{
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #229581;
+    opacity: 1;
+    transition: .5s;
+}
+.plus_contener .plus div:nth-child(2){
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.plus_contener--active .plus div:nth-child(2){
+    opacity: 0;
+}
+.printing-order_top{
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 35px;
+}
+.printing-order_top-title{
+    color: #333333;
+    font-family: "Gilroy";
+    height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-left: 18px;
+    border-left: 2px solid #229581;
+    -ms-flex-item-align: end;
+    align-self: end;
+}
+.printing-order_top-block{
+    background-color: #f9f9f9;
+    position: relative;
+    padding: 15px 78px 22px 21px;
+}
+.printing-order_top-block p{
+    max-width: 212px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+.printing-order_top-block img{
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    cursor: pointer;
+}
+.printing-order_tab{
+    margin-top: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d3d3d3; 
+    margin-bottom: 46px;
+}
+.printing-order_tab-text{
+    position: relative;
+    margin-right: 35px;
+    transition:.5s;
+}
+.printing-order_tab-text p{
+    cursor: pointer;
+    color: #a3a3a3;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 30px;
+    margin-bottom: -30px;
+    transition:.5s;
+}
+.printing-order_tab-text--active p{
+    color: #333333;
+    border-bottom: 2px solid #229581;
+}
+.printing-order_tab-text img{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    right: -18px;
+    top: -16px;
+    cursor: pointer;
+}  
+.printing-order_form-left{
+    margin-bottom: 35px;
+} 
+.printing-order_form-left-blocks{
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 650px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.printing-order_form{
+    border-bottom:1px solid #d3d3d3;
+    margin-bottom: 30px;
+    width: 650px;
+}
+.printing-order_form-left-blocks-right{
+    width: 300px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+.printing-order_form-left-blocks-right p input{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.printing-order_form-left-blocks-right .ui-widget.ui-widget-content{
+    border: none;
+    height: 3px;
+    background-color: #229581;
+    margin-top: 16px;
+    margin-left: -25px;
+}
+.printing-order_form-left-blocks-right .ui-slider-horizontal .ui-slider-range{
+    height: 3px;
+    background-color: #229581;
+    border: none;
+}
+.printing-order_form-left-blocks-right .ui-slider .ui-slider-handle{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #229581;
+}
+.printing-order_form-left-blocks-left{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.printing-order_form-left-blocks-left-speed .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    width: 300px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+}
+.ui-selectmenu-button.ui-button{
+    width: 300px;
+    height: 60px;
+    padding-top: 22px;
+    padding-left: 20px;
+}
+.printing-order_form-left-blocks-left label{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+.ui-selectmenu-text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.ui-button .ui-icon{
+    background: url('../img/printing-order_form-left-blocks-left-speed.png') no-repeat;
+}
+.printing-order_chekcbox input{
+   display: none;
+}
+.printing-order_chekcbox .checkbox_item{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-order_chekcbox .box{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    margin-right: 19px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+}
+.printing-order_chekcbox .box::before{
+    content: '';
+    background: url('../img/correct.png') 50% no-repeat;
+    width: 12px;
+    height: 12px;
+    opacity: 0;
+    transition: .5s;
+}
+.printing-order_chekcbox .checkbox:checked+.box::before{
+    opacity: 1;
+}
+.printing-order_chekcbox{
+    padding-bottom: 31px;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.printing-order_files{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 650px;
+    margin-bottom: 28px;
+}
+.printing-order_files-file p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 7px;
+}
+.printing-order_file-card{
+    width: 300px;
+    height: 60px;
+    border-radius: 3px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 20px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-order_file-card .text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.printing-order_link {
+    margin-bottom: 102px;
+}
+.printing-order_link a{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    border-bottom: 1px dashed #229581;
+    max-width: 402px;
+    transition: .5s
+}
+.printing-order_link a:hover{
+    border: none;
+}
+.ord{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.ord_right{
+    width: 522px;
+    height: 380px;
+    background-color: #f7f5f5;
+    padding: 39px 0 0 42px;
+}
+.ord_right-title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 27px;
+}
+.ord_right-price{
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 33px;
+}
+.ord_right-price p:nth-child(1){
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.ord_right-price p:nth-child(2){
+    -ms-flex-item-align: end;
+    align-self: end;
+    margin-left: 18px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.ord_right-text{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    opacity: .8;
+    margin-bottom: 18px;
+    
+}
+.ord_right-time{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #d3d3d3;
+    max-width: 440px;
+    margin-bottom: 30px;
+}
+.ord_right-bottom{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+.ord_right-bottom-text{
+    max-width: 190px;
+    color: #888888;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-right: 54px;
+}
+.printing-buttons{
+    padding: 90px 0;
+}
+.printing-buttons_text{
+    padding-left: 10px;
+    border-left: 2px solid #229581;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 31px;
+}
+.printing-buttons_bottom-button{
+    display: -ms-flexbox;
+    display: flex;
+    margin: -5px -5px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.printing-buttons_bottom-button button{
+    border-radius: 3px;
+    border: 1px solid #229581;
+    background-color: #ffffff;
+    padding: 14px;
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin: 5px 5px;
+    margin-bottom: 20px;
+}
+.printing-buttons_bottom-button--active{
+    border-radius: 3px;
+    background-color: #229581;
+    color: #ffffff;
+    font-family: "Gilroy";
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+}
+.printing-buttons_bottom{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.printing-buttons_bottom-link{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.printing-buttons_bottom-link a{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1315px){
+    .printing-price_lists{
+        overflow-x: scroll;
+    }
+    .printing-price_lists-circulation{
+        overflow-x: scroll;
+    }
+    .printing-price_dop{
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width:1295px){
+    .printing-blueprints_block-cards{
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1264px){
+    .printing-queshion_cards{
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .printing-queshion_cards-right{
+        border: none;
+        padding-left: 0;
+        padding-top: 30px;
+        margin-top: 26px;
+        border-top: 1px solid #d3d3d3;
+    }
+}
+@media screen and (max-width:1200px){
+    .printing-buttons_bottom-link{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:1188px){
+    .ord{
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .printing-queshion_cards-right-card{
+        width: auto;
+        max-width: 925px;
+        padding-right: 24px;
+    }
+    .delivery_pyerment-bottom_text ul li img{
+        align-self: start;
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width:671px){
+    .printing-order_form-left-blocks{
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+    .ui-selectmenu-button.ui-button{
+        width: 100%;
+    }
+    .printing-order_form-left-blocks-right{
+        width: 100%;
+    }
+    .printing-order_files{
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .printing-order_file-card{
+        width: 100%;
+    }
+    .printing-order_files-file{
+        margin-top: 20px;
+    }
+    .printing-order_top-block{
+        display: none;
+    }
+    .printing-order_form{
+        width: 100%;
+    }
+    .ord_right{
+        width: 100%;
+        margin-bottom: 50px;
+        min-height: 380px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:522px){
+    .ord_right-bottom{
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .ord_right-bottom-text{
+        display: none;
+    }
+    .menu_mobile .popap_menu .left p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width:425px){
+    .printing-blueprints_text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .printing-price_text-bord{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .printing-price_text-text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .about_title-text p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .printing-queshion_cards-left-text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .printing-queshion_cards-right-card .titles{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .printing-queshion_cards-right-card .slide_printing{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .ord_right-price p:nth-child(1){
+        font-size: 25px;
+    }
+    .ord_right-price p:nth-child(2){
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,352 @@
+.all-link a{
+    color: #888888;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+}
+.all-link a:nth-child(1){
+    text-decoration: underline;
+    margin-right: 5px;
+}
+.all-link{
+    margin-top: 26px;
+}
+/* .foot_menu li:nth-child(2) a{
+    color: #229581;
+    
+} */
+.about-center{
+    padding: 75px 0 100px 0;
+}
+.about-center_top{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 60px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.about-center_top-text{
+    max-width: 592px;
+    color: #333333;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.about-center_bottom{
+    margin-top: 110px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+}
+.about-center_bottom-text{
+    max-width: 539px;
+    color: #333333;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.about-team{
+    background-color: #f7f5f5;
+    padding: 80px 0;
+}
+.about-team_slider-card{
+    padding: 8px 10px ;
+    box-shadow: 0 0 18px 3px rgba(136, 136, 136, 0.07);
+    border-radius: 5px;
+    background-color: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100%;
+    vertical-align: middlel;
+}
+.about-team_slider-card-name{
+    color: #333333;
+    font-family: "Gilroy - Semi Bold";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 17px;
+}
+.about-team_slider-card-position{
+    max-width: 221px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 17px;
+    min-height: 31px;
+}
+.about-team_slider-card a{
+    color: #229581;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+.about-team_slider-block{
+    margin-top: 73px;
+    position: relative;
+}
+.about-team_slider .owl-nav.disabled+ .owl-dots{
+    margin-top: 52px;
+}
+.about-team_slider-nav{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 18px 3px rgba(136, 136, 136, 0.07);
+    border-radius: 2px;
+    background-color: white;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 13px 0;
+    position: absolute;
+    cursor: pointer;
+    transition: .5s;
+}
+.about-team_slider-nav svg{
+    width: 8px;
+}
+.about-team_slider-nav svg path{
+    fill: #229581;
+    transition: .5s;
+}
+.about-team_slider-prev svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.about-team_slider-prev{
+    right:  -81px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.about-team_slider-next{
+    left:  -81px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.about-team_slider-nav:hover{
+    background-color: #229581;
+}
+.about-team_slider-nav:hover svg path{
+    fill: white;
+}
+.about-clients{
+    padding: 90px 0;
+}
+.about-clients_title{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.about-clients_title .title{
+    max-width: 512px;
+}
+.about_link{
+    color: #229581 !important;
+}
+.about-clients_card{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: calc(100%/2 -100px);
+    margin: 82px 50px;
+}
+.about-clients_card-number{
+    color: #229581;
+    font-family: "MADE Saonara";
+    font-size: 160px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    margin-right: 30px;
+}
+.about-clients_card-text p:nth-child(1){
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about-clients_card-text p:nth-child(2){
+    max-width: 452px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.about-clients_cards{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -50px;
+}
+.about-clients_park-text-title{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+}
+.about-clients_park-text-title a{
+    color: #229581;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: underline;
+}
+.about-clients_park-text-list{
+    max-width: 435px;
+    margin: 12px 0;
+}
+.about-clients_park-text-list li{
+    margin: 10px 0;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.about-clients_park-text-list ul img{
+    margin-right: 10px;
+}
+.about-clients_park-text-text{
+    max-width: 472px;
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.about-clients_park{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+
+
+
+.about_queshion{
+    background: none !important;
+    background-color: #f7f5f5 !important;
+}
+
+
+
+
+
+@media screen and (max-width:1414px){
+    .about-team_slider-prev{
+        right:  -41px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+    .about-team_slider-next{
+        left:  -41px;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+    }
+}
+@media screen and (max-width:1330px){
+    .about-team_slider-nav{
+        display: none;
+    }
+}
+@media screen and (max-width:1264px){
+    .about-clients_cards{
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    .about-clients_park{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1203px){
+    .about-center_top-text{
+        width: 100%;
+    }
+    .about-center_bottom-text{
+        width: 100%;
+    }
+    .about-center_top{
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+    .about-center_bottom{
+        -ms-flex-pack: space-evenly;
+        justify-content: space-evenly;
+    }
+}
+
+
+@media screen and (max-width:425px){
+    .about-clients_card-text p:nth-child(2){
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .about-clients_card{
+        margin: 41px 50px;
+    }
+}

@@ -1,0 +1,344 @@
+.equipment-inf{
+    padding: 75px 0;
+}
+.equipment-inf_title{
+    text-align: start !important;
+}
+.equipment-inf_body p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.equipment-inf_body p:nth-child(1){
+    max-width: 624px;
+    margin-bottom: 25px;
+}
+.equipment-inf_body p:nth-child(2){
+    max-width: 678px;
+    margin-bottom: 14px;
+}
+.equipment-inf_body-bottom{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.equipment-inf_body{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.equipment-inf_body-img img{
+    width: 530px;
+}
+.equipment-inf_title{
+    margin-bottom: 60px;
+}
+.equipment-prepress{
+    padding: 77px 0;
+    background-color: #f7f5f5;
+}
+.equipment-prepress_title{
+    margin-bottom: 60px;
+}
+.equipment-prepress_body{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.equipment-prepress_body-text-title{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.equipment-prepress_body-text-par{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+.equipment-prepress_body-text p{
+    color: #3d3d3d;
+    font-family: "Gilroy";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-top: 30px;
+}
+.equipment-prepress_body-text{
+    max-width: 547px;
+}
+.equipment-press{
+    padding: 75px 0 100px 0;
+}
+.equipment-press_title{
+    margin-bottom: 62px
+}
+.equipment-press_body-block-title{
+    color: #229581;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 35px;
+
+}
+.equipment-press_body{
+    padding: 56px 0;
+    border-bottom: 1px solid #d3d3d3;
+}
+.equipment-press_body--last{
+    border: none;
+}
+.equipment-press_body-top{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.equipment-press_body-block-list-ops{
+    width: 630px;
+    height: 60px;
+    background-color: #229581;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.equipment-press_body-block-list-ops p{
+    color: #fefefe;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.equipment-press_body-block-list-cards{
+    display: -ms-flexbox;
+    display: flex;
+}
+.equipment-press_body-block-list-card-left-text{
+    width: 315px;
+    height: 60px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    padding: 24px 0 0 41px;
+}
+.equipment-press_body-block-list-card-left-text p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.equipment-press_body-block-list-card-right-text{
+    width: 315px;
+    height: 60px;
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    padding: 24px 0 0 41px;
+}
+.equipment-press_body-block-list-card-right-text p{
+    color: #333333;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.equipment-press_body-foot{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.equipment-press_body-foot p{
+    max-width: 1137px;
+    color: #3d3d3d;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+.equipment-press_body--obr .equipment-press_body-image img{
+    margin-left: -175px;
+}
+.equipment-press_button{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.equipment-queshion{
+    background: none !important;
+    background-color: #f7f5f5 !important;
+}
+
+
+
+
+
+
+@media screen and (max-width:1273px){
+    .equipment-press_body-top{
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .equipment-press_body--obr .equipment-press_body-top{
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .equipment-press_body--obr .equipment-press_body-image img{
+        margin-left: 0;
+    }
+    .equipment-inf_body{
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .equipment-prepress_body{
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .equipment-inf_body-img img{
+        display: none;
+    }
+    .equipment-inf_title{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width:663px){
+    .equipment-prepress_body-image img{
+        width: 425px;
+    }
+    .equipment-prepress{
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width:643px){
+    .equipment-press_body-block-list-ops{
+        width: 550px;
+    }
+    .equipment-press_body-block-list-card-left-text{
+        width:275px ;
+    }
+    .equipment-press_body-block-list-card-right-text{
+        width:275px ;
+    }
+    .equipment-press_body-block-list-card-right-text p{
+        font-size: 15px;
+    }
+    .equipment-press_body-block-list-card-left-text p{
+        font-size: 15px;
+    }
+    .equipment-press_body-image img{
+        width: 647px;
+    }
+}
+@media screen and (max-width: 560px){
+    .equipment-press_body-block-list-ops {
+        width: 380px;
+    }
+    .equipment-press_body-block-list-card-left-text{
+        width: 190px;
+        padding-left: 6px;
+    }
+    .equipment-press_body-block-list-card-right-text{
+        width: 190px;
+        padding-left: 6px;
+    }
+    .equipment-press_body-block-list{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .equipment-press_body-image img{
+        width: 494px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .equipment-press_body-block-list-ops{
+        width: 320px;
+    }
+    .equipment-press_body-block-list-card-left-text{
+        width: 160px;
+        height: 50px;
+        padding: 11px 0 0 9px;
+    }
+    .equipment-press_body-block-list-card-right-text{
+        width: 160px;
+        height: 50px;
+        padding: 11px 0 0 9px;
+    }
+    .equipment-prepress_body-text-title{
+        font-size: 20px;
+    }
+    .equipment-prepress_body-text-par{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .layout-requirements_top-text-all ul li{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .equipment-prepress_body-text p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .equipment-prepress_body-image img{
+        width: 100%;
+    }
+    .equipment-press_body-block-title{
+        font-size: 20px;
+    }
+    .equipment-press_body-image img{
+        width: 100%;
+    }
+    .equipment-press_body-foot p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .equipment-inf_body p{
+        font-size: 13px;
+    }
+    .equipment-inf_body-bottom{
+        font-size: 13px;
+    }
+}
+
